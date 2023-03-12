@@ -1,6 +1,9 @@
 body {
   background: #000000;
+  background-image: url("space.jpg");
   color: #FFFFC0;
+  background-position: center;
+  background-size: contain;
 }
 
 table, th, td {
