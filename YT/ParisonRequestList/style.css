@@ -36,3 +36,7 @@ h2 {
 .finished {
   background: rgba(0, 255, 0, 0.20);
 }
+
+.todo {
+  background: rgba(0, 0, 255, 0.20);
+}
