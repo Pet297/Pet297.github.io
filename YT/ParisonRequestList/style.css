@@ -1,9 +1,11 @@
 body {
   background: #000000;
   color: #FFFFC0;
-  background-image: url("https://pet297.github.io/YT/ParisonRequestList/space.jpg");
+  background-image: url("./space.jpg");
   background-position: center;
-  background-size: contain;
+  max-width: 800px;
+  min-width: 600px;
+  margin: auto;
 }
 
 table, th, td {
@@ -12,7 +14,7 @@ table, th, td {
   padding: 5px;
 }
 
-h2 {
+.block h2 {
   width: 99%;
   color: #40C0FF;
   border-bottom: 3px solid #40C0FF;
@@ -21,12 +23,20 @@ h2 {
 }
 
 .block {
-  border-radius: 5px;
   width: 95%;
-  background: rgba(255, 255, 255, 0.10);
   padding: 10px;
-  margin: 20px auto 20px auto;
-  color: #FFFFC0; 
+  margin: 10px auto 10px auto;
+  border-color: #402080;
+  border-style: ridge; 
+
+  background: #000000; 
+  background-image: url("./BG01.png");
+  background-position: center;
+  image-rendering: crisp-edges;
+}
+
+table {
+  background: #000000; 
 }
 
 .problems {
