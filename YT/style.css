@@ -1,6 +1,6 @@
 body {
   background: #000000;
-  color: #C0C0FF;
+  color: #C0FFFF;
   background-position: center;
   max-width: 800px;
   min-width: 600px;
@@ -8,15 +8,15 @@ body {
 }
 
 table, th, td {
-  border: 2px solid #C0C0FF;
+  border: 2px solid #FFFFC0;
   border-collapse: collapse;
   padding: 5px;
 }
 
 .block h2 {
   width: 99%;
-  color: #FF80FF;
-  border-bottom: 3px solid #FF80FF;
+  color: #80FF80;
+  border-bottom: 3px solid #80FF80;
   font-family: 'Courier New', monospace;
   margin: 5px; 
 }
@@ -33,10 +33,10 @@ table, th, td {
   width: 95%;
   padding: 10px;
   margin: 10px auto 10px auto;
-  border-color: #800000;
+  border-color: #804020;
   border-style: ridge; 
 
-  background: #100000;
+  background: #100800;
   background-position: center;
   image-rendering: crisp-edges;
 }
